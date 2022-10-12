@@ -1,0 +1,87 @@
+libtest-useallmodules-perl (0.17-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Tue, 29 Dec 2020 03:01:30 +0100
+
+libtest-useallmodules-perl (0.17-1) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ Florian Schlichting ]
+  * Add debian/upstream/metadata
+  * Import upstream version 0.17
+  * Email change: Florian Schlichting -> fsfs@debian.org
+  * Drop obsoleted build-dependency on libextutils-makemaker-cpanfile-perl
+  * Fix module name in long description (thanks, lintian!)
+  * Bump packaging copyright years
+  * Declare compliance with Debian Policy 3.9.6
+  * Mark package autopkgtest-able
+
+ -- Florian Schlichting <fsfs@debian.org>  Thu, 09 Jul 2015 22:02:20 +0200
+
+libtest-useallmodules-perl (0.15-1) unstable; urgency=low
+
+  * Team upload.
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+  * New upstream release.
+  * Don't run release tests during build anymore.
+  * Add build dependency on libextutils-makemaker-cpanfile-perl.
+  * Declare compliance with Debian Policy 3.9.5.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 20 Jul 2014 00:45:04 +0200
+
+libtest-useallmodules-perl (0.14-1) unstable; urgency=low
+
+  [ Nathan Handler ]
+  * debian/watch: Update to ignore development releases.
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Changed: Replace versioned (build-)dependency on
+    perl (>= 5.6.0-{12,16}) with an unversioned dependency on perl (as
+    permitted by Debian Policy 3.8.3).
+
+  [ Ryan Niebur ]
+  * Email change: Ryan Niebur -> ryan@debian.org
+
+  [ Jonathan Yu ]
+  * New upstream release.
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Florian Schlichting ]
+  * Imported Upstream version 0.14.
+  * Bumped Standards-Version to 3.9.3 (use copyright-format 1.0).
+  * Bumped dh compatibility to level 8 (no changes necessary).
+  * Switched to source format 3.0 (quilt).
+  * Switched to short-form debian/rules.
+  * Added myself to uploaders and copyright.
+
+ -- Florian Schlichting <fschlich@zedat.fu-berlin.de>  Sun, 26 Aug 2012 22:36:26 +0200
+
+libtest-useallmodules-perl (0.12-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Ryan Niebur <ryanryan52@gmail.com>  Wed, 27 May 2009 19:01:19 -0700
+
+libtest-useallmodules-perl (0.11-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Ryan Niebur <ryanryan52@gmail.com>  Fri, 08 May 2009 00:39:49 -0700
+
+libtest-useallmodules-perl (0.10-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #526247)
+
+ -- Ryan Niebur <ryanryan52@gmail.com>  Thu, 30 Apr 2009 19:01:06 -0700
